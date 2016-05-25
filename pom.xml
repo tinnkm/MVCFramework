@@ -214,7 +214,12 @@
             <artifactId>spring-test</artifactId>
             <version>${spring.version}</version>
         </dependency>
-
+        <!-- 4)spring cache相关配置 -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context-support</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
         <!-- 项目自添加插件开始 -->
         <!-- shiro -->
         <dependency>
